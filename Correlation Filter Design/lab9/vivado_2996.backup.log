@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Wed Dec  6 21:32:49 2017
+# Process ID: 2996
+# Current directory: D:/xilinx/vivado/arty/2017/lab9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent428 D:\xilinx\vivado\arty\2017\lab9\lab9.xpr
+# Log file: D:/xilinx/vivado/arty/2017/lab9/vivado.log
+# Journal file: D:/xilinx/vivado/arty/2017/lab9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/xilinx/vivado/arty/2017/lab9/lab9.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/dev_tools/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Dec  6 21:33:11 2017] Launched synth_1...
+Run output will be captured here: D:/xilinx/vivado/arty/2017/lab9/lab9.runs/synth_1/runme.log
+[Wed Dec  6 21:33:11 2017] Launched impl_1...
+Run output will be captured here: D:/xilinx/vivado/arty/2017/lab9/lab9.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  6 21:41:07 2017...

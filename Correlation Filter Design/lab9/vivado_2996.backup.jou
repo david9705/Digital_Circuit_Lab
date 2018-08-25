@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Wed Dec  6 21:32:49 2017
+# Process ID: 2996
+# Current directory: D:/xilinx/vivado/arty/2017/lab9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent428 D:\xilinx\vivado\arty\2017\lab9\lab9.xpr
+# Log file: D:/xilinx/vivado/arty/2017/lab9/vivado.log
+# Journal file: D:/xilinx/vivado/arty/2017/lab9\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/xilinx/vivado/arty/2017/lab9/lab9.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
