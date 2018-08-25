@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2.1 (64-bit)
+# SW Build 1957588 on Wed Aug  9 16:32:24 MDT 2017
+# IP Build 1948039 on Wed Aug  9 18:19:28 MDT 2017
+# Start of session at: Tue Sep 19 16:42:24 2017
+# Process ID: 4232
+# Current directory: D:/xilinx/vivado/arty/2017/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log mmult.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mmult.tcl
+# Log file: D:/xilinx/vivado/arty/2017/lab2/lab2.runs/synth_1/mmult.vds
+# Journal file: D:/xilinx/vivado/arty/2017/lab2/lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mmult.tcl -notrace
