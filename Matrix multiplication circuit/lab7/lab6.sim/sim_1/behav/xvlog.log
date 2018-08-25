@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/imports/LCD_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LCD_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/imports/clk_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/imports/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/imports/sd_card.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd_card
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/imports/sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab7
+WARNING: [VRFC 10-2369] data object send_counter is already declared [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:477]
+ERROR: [VRFC 10-1350] second declaration of send_counter ignored [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:477]
+WARNING: [VRFC 10-159] /* in comment [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:577]
+WARNING: [VRFC 10-756] identifier S_MAIN_WAIT_KEY is used before its declaration [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:448]
+WARNING: [VRFC 10-756] identifier S_MAIN_INIT_UART is used before its declaration [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:452]
+WARNING: [VRFC 10-756] identifier S_MAIN_PROMPT is used before its declaration [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:457]
+ERROR: [VRFC 10-1040] module lab7 ignored due to previous errors [C:/Users/shlab_89/Desktop/lab6_NEW/lab6.srcs/sources_1/new/lab7.v:33]

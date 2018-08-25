@@ -1,0 +1,46 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Nov 28 01:50:41 2017
+| Host         : shlab_56-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc -file lab7_drc_routed.rpt -pb lab7_drc_routed.pb -rpx lab7_drc_routed.rpx
+| Design       : lab7
+| Device       : xc7a35ticsg324-1L
+| Speed File   : -1L
+| Design State : Routed
+------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 2          |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net P_next_reg[2]_i_2_n_0 is a gated clock net sourced by a combinational pin P_next_reg[2]_i_2/O, cell P_next_reg[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net U_next_reg[1]_i_2_n_0 is a gated clock net sourced by a combinational pin U_next_reg[1]_i_2/O, cell U_next_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

@@ -1,0 +1,122 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Nov 28 01:48:10 2017
+| Host         : shlab_56-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file lab7_control_sets_placed.rpt
+| Design       : lab7
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    50 |
+| Unused register locations in slices containing registers |   140 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             106 |           66 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             345 |          128 |
+| Yes          | No                    | No                     |             674 |          193 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             247 |           73 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+-------------------------------------+----------------------------+------------------+----------------+
+|      Clock Signal      |            Enable Signal            |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++------------------------+-------------------------------------+----------------------------+------------------+----------------+
+|  clk_IBUF_BUFG         | sd_card0/reset0                     | ram0/done                  |                1 |              1 |
+|  clk_sel_BUFG          | sd_card0/cs_reg_i_1_n_0             | sd_card0/reset0            |                1 |              1 |
+|  clk_IBUF_BUFG         | uart/tx_out_i_1_n_0                 |                            |                1 |              1 |
+|  U_next_reg[1]_i_2_n_0 |                                     |                            |                1 |              2 |
+|  P_next_reg[2]_i_2_n_0 |                                     |                            |                1 |              3 |
+|  clk_IBUF_BUFG         |                                     | ram0/tagcounter_reg[1]     |                2 |              4 |
+|  clk_IBUF_BUFG         | lcd0/icode                          |                            |                1 |              4 |
+|  clk_IBUF_BUFG         | lcd0/tcode[3]_i_1_n_0               |                            |                2 |              4 |
+|  clk_sel_BUFG          |                                     |                            |                4 |              4 |
+|  clk_sel_BUFG          | sd_card0/return_state[3]_i_1_n_0    | sd_card0/reset0            |                2 |              4 |
+|  clk_IBUF_BUFG         | cntt                                | sd_card0/reset0            |                1 |              4 |
+|  clk_sel_BUFG          | sd_card0/c_state[4]_i_1_n_0         | sd_card0/reset0            |                4 |              5 |
+|  clk_IBUF_BUFG         | row_B[91]_i_1_n_0                   |                            |                2 |              6 |
+|  clk_IBUF_BUFG         | lcd0/lcd_initialized_reg_n_0        | sd_card0/reset0            |                3 |              7 |
+|  clk_IBUF_BUFG         | A_mat110_out                        | sd_card0/reset0            |                6 |              7 |
+|  clk_sel_BUFG          | sd_card0/recv_data                  | sd_card0/reset0            |                2 |              7 |
+|  clk_sel_BUFG          | sd_card0/dout[7]_i_1_n_0            |                            |                1 |              8 |
+|  clk_sel_BUFG          | sd_card0/bit_counter                | sd_card0/reset0            |                5 |              8 |
+|  clk_sel_BUFG          | sd_card0/byte_counter[8]_i_1_n_0    | sd_card0/reset0            |                3 |              9 |
+|  clk_IBUF_BUFG         | sd_card0/E[0]                       | sd_counter0                |                3 |             10 |
+|  clk_IBUF_BUFG         | uart/tx_bits_remaining              |                            |                2 |             11 |
+|  clk_IBUF_BUFG         |                                     | send_counter[7]_i_1_n_0    |                5 |             12 |
+|  clk_IBUF_BUFG         |                                     | btn_db0/clear              |                6 |             22 |
+|  clk_IBUF_BUFG         | data[42][1]_i_1_n_0                 |                            |                6 |             22 |
+|  clk_IBUF_BUFG         | data[53][1]_i_1_n_0                 |                            |                7 |             22 |
+|  clk_IBUF_BUFG         | data[60][1]_i_1_n_0                 |                            |                5 |             22 |
+|  clk_IBUF_BUFG         | data[67][1]_i_1_n_0                 |                            |                5 |             22 |
+|  clk_IBUF_BUFG         | data[74][1]_i_1_n_0                 |                            |                7 |             22 |
+|  clk_IBUF_BUFG         | data[35][1]_i_1_n_0                 |                            |                5 |             22 |
+|  clk_IBUF_BUFG         | data[85][1]_i_1_n_0                 |                            |                6 |             22 |
+|  clk_IBUF_BUFG         | data[28][1]_i_1_n_0                 |                            |                6 |             22 |
+|  clk_IBUF_BUFG         | data[99][1]_i_1_n_0                 |                            |                6 |             22 |
+|  clk_IBUF_BUFG         | data[21][1]_i_1_n_0                 |                            |                7 |             22 |
+|  clk_IBUF_BUFG         | data[138][1]_i_1_n_0                |                            |                5 |             22 |
+|  clk_IBUF_BUFG         | data[117][1]_i_1_n_0                |                            |                6 |             22 |
+|  clk_IBUF_BUFG         | data[131][1]_i_1_n_0                |                            |                9 |             22 |
+|  clk_IBUF_BUFG         | data[124][1]_i_1_n_0                |                            |                8 |             22 |
+|  clk_IBUF_BUFG         | data[106][1]_i_1_n_0                |                            |                8 |             22 |
+|  clk_IBUF_BUFG         | data[92][1]_i_1_n_0                 |                            |                8 |             22 |
+|  clk_IBUF_BUFG         | lcd0/lcd_initialized_reg_n_0        | lcd0/text_count[0]_i_1_n_0 |                7 |             25 |
+|  clk_IBUF_BUFG         | lcd0/init_e_i_2_n_0                 | sd_card0/reset0            |                8 |             32 |
+|  clk_sel_BUFG          | sd_card0/block_addr_reg[31]_i_1_n_0 | sd_card0/reset0            |                7 |             32 |
+|  clk_sel_BUFG          | sd_card0/R7_response                | sd_card0/reset0            |                7 |             40 |
+|  clk_sel_BUFG          | sd_card0/cmd_out[55]_i_1_n_0        | sd_card0/reset0            |               13 |             55 |
+|  clk_IBUF_BUFG         | C_mat[0]                            |                            |               20 |             72 |
+|  clk_IBUF_BUFG         | C_mat[20]                           |                            |               20 |             72 |
+|  clk_IBUF_BUFG         | C_mat[40]                           |                            |               20 |             72 |
+|  clk_IBUF_BUFG         | C_mat[60]                           |                            |               20 |             72 |
+|  clk_IBUF_BUFG         |                                     |                            |               60 |             97 |
+|  clk_IBUF_BUFG         |                                     | sd_card0/reset0            |              115 |            307 |
++------------------------+-------------------------------------+----------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     3 |
+| 2      |                     1 |
+| 3      |                     1 |
+| 4      |                     6 |
+| 5      |                     1 |
+| 6      |                     1 |
+| 7      |                     3 |
+| 8      |                     2 |
+| 9      |                     1 |
+| 10     |                     1 |
+| 11     |                     1 |
+| 12     |                     1 |
+| 16+    |                    28 |
++--------+-----------------------+
+
+
